@@ -1,0 +1,108 @@
+.filters {
+    position: relative;
+    height: 70px;
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+}
+
+.filters button.btn1 {
+    position: absolute;
+    right: 30px;
+    bottom: 12px;
+    font-size: 18px;
+    background-color: #FF5A5F;
+    color: #fff;
+    height: 48px;
+    width: 20%;
+    border-radius: 4px;
+}
+.filters button.btn1:hover{
+    opacity: 90%;
+}
+
+.filters div.locations {
+    position: absolute;
+    height: 100%;
+    width: 25%;
+    border-right: solid #DDDDDD 1px;
+    
+}
+.filters div.amenities {
+    position: absolute;
+    height: 100%;
+    width: 25%;
+    margin-left: 250px;
+    
+}
+
+.filters div.locations h3 {
+    position: absolute;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.filters div.locations h4{
+    position: absolute;
+    font-weight: 400;
+    font-size: 14px;
+    top: 15px;
+    margin-left: 20px;
+}
+
+.filters div.amenities h3 {
+    position: absolute;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.filters div.amenities h4{
+    position: absolute;
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 20px;
+    top: 15px;
+}
+.filters div ul{
+    list-style: none;
+}
+
+.filters div.locations ul{
+    padding-left: 20px;
+}
+
+.filters div ul h2{
+   margin: 0;
+}
+.filters div.locations ul.popover {
+    position: absolute;
+    background-color: #FAFAFA;
+    visibility: hidden;
+    width: 100%;
+    border: solid #DDDDDD 1px;
+    padding: 0;
+    top: 100%;
+    margin: 0;
+}
+
+.filters div.amenities ul.popover {
+    position: absolute;
+    visibility: hidden;
+    background-color: #FAFAFA;
+    width: 100%;
+    border: solid #DDDDDD 1px;
+    padding: 0;
+    top: 100%;
+    margin: 0;
+    list-style: none;
+}
+
+/* .filters div.locations ul.popover h2{
+    padding-left: 20px;
+} */
+
+
+.filters div:hover > ul.popover {
+    visibility: visible;
+}
+

@@ -1,0 +1,90 @@
+section.places h1{
+    font-size: 30px;
+}
+
+section.places article{
+    display: inline-block;
+    position: relative;
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: solid #FF5A5F 1px;
+    border-radius: 4px;
+}
+
+section.places article h2 {
+    position: absolute;
+    right: 40%;
+    font-size: 30px;
+    text-align: center;
+    display: inline-block;
+    margin: 0
+}
+
+section.places div.price_by_night{
+    color:  #FF5A5F;
+    border: solid #FF5A5F 4px;
+    margin-left: 75%;
+    display: inline-block;
+    border-radius: 50%;
+    right: 10px;
+    min-width: 60px;
+    height: 80px;
+    width: 80px;
+    
+}
+
+section.places div.price_by_night h1{
+    margin: 0;
+    text-align: center;
+    margin-top:20px;
+    font-size: 25px;
+}
+
+section.places div.information {
+    margin-top: 10px;
+    height: 90px;
+    border-top: solid #DDDDDD 1px;
+    border-bottom: solid #DDDDDD 1px
+}
+
+section.places div.information div{
+    display: inline-block;
+    margin-left: 40px;
+}
+
+
+section.places div.baths{
+    margin-top: 10px;
+    background: url("/images/icon_bath.png") 0px no-repeat;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+}
+
+section.places div.guest{
+    margin-top: 10px;
+    background: url("/images/icon_group.png") 0px no-repeat;
+    display: inline-block;
+    height: 50px;
+    width: 60px;
+}
+section.places div.desc{
+    margin-right: 30px;
+}
+
+section.places div.beds{
+    margin-top: 10px;
+    background: url("/images/icon_bed.png") 0px no-repeat;
+    display: inline-block;
+    height: 50px;
+    width: 60px;
+}
+
+section.places article div.user{
+    margin-top: 10px;
+}
+
+section.places article div.description{
+    margin-top: 10px;
+}
